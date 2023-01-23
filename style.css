@@ -5,12 +5,13 @@
 }
 
 body {
-  background-color: #09090A;
+  background-color: #09090a;
   color: white;
+
   height: 100vh;
 }
 
-header{
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,8 +20,7 @@ header{
 
   position: fixed;
   width: 100%;
-  background-color: #09090A;
-  width: fit-content;
+  background-color: #09090a;
 }
 
 button {
@@ -34,7 +34,7 @@ button {
   align-items: center;
   gap: 12px;
 
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
@@ -44,8 +44,7 @@ button {
   display: flex;
 
   padding: 182px 48px 48px;
-
-
+  width: fit-content;
 }
 
 .habits {
@@ -67,39 +66,41 @@ button {
   justify-content: center;
 }
 
-.days{
+.days {
   display: flex;
   gap: 48px;
   margin-left: 32px;
 }
 
-.day{
+.day {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
+
 .day div {
   margin-bottom: 8px;
 
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-size: 20px;
   line-height: 125%;
 
-  color: #A1A1AA;
+  color: #a1a1aa;
 
   text-align: center;
 }
-input{
+
+input {
   appearance: none;
   -webkit-appearance: none;
 
   width: 64px;
   height: 64px;
 
-  border: 2px solid #27272A;
+  border: 2px solid #27272a;
   border-radius: 8px;
 
-  background: #18181B;
+  background: #18181b;
 }
 
 input:checked {
@@ -107,7 +108,7 @@ input:checked {
   border: 2px solid #a78bfa;
 }
 
-@media (max-width: 570px){
+@media (max-width: 570px) {
   button div {
     display: none;
   }
